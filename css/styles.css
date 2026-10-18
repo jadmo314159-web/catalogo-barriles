@@ -94,7 +94,11 @@ body {
 /* Hero Section */
 .hero {
     height: 70vh;
-    background: linear-gradient(rgba(18, 18, 18, 0.7), rgba(18, 18, 18, 0.9)), url('../assets/images/placeholder.jpg') center/cover no-repeat;
+    /* Gradiente semitransparente combinado con tu imagen PNG o JPG */
+    background: linear-gradient(
+        rgba(18, 18, 18, 0.7), 
+        rgba(18, 18, 18, 0.9)
+    ), url('../assets/images/fondo.jpg') center/cover no-repeat;
     display: flex;
     align-items: center;
     justify-content: center;
