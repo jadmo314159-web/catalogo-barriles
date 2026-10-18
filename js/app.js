@@ -2,69 +2,136 @@
 const barriles = [
     {
         id: 1,
-        marca: "Ahumadores Pro",
-        nombre: "Barril Asador Compacto Níquel",
-        tamano: "Pequeño",
-        precio: 350000,
+        marca: "Flami",
+        nombre: "Flami eco  - 7 libras",
+        tamano: "mini",
+        precio: 280000,
         capacidad: "1 - 8 personas",
         acabado: "Acero Inoxidable / Níquel",
         descripcion: "Ideal para balcones, terrazas y pequeños grupos. Excelente retención de calor y fácil limpieza.",
-        imagen: "assets/images/placeholder.jpg"
+        imagen: "assets/images/flami7l.jpg"
     },
     {
         id: 2,
-        marca: "Fuego & Acero",
-        nombre: "Barril Ahumador Master Níquel",
-        tamano: "Mediano",
-        precio: 650000,
-        capacidad: "8 - 20 personas",
-        acabado: "Níquel Reforzado",
-        descripcion: "El favorito para reuniones familiares. Permite asar, ahumar y colgar cortes largos simultáneamente.",
-        imagen: "assets/images/placeholder.jpg"
+        marca: "Ingrill",
+        nombre: "Barril Ingril  - 7 libras",
+        tamano: "mini",
+        precio: 320000,
+        capacidad: "1 - 8 personas",
+        acabado: "Acero Inoxidable / Níquel",
+        descripcion: "Ideal para balcones, terrazas y pequeños grupos. Excelente retención de calor y fácil limpieza.",
+        imagen: "assets/images/ingrill7l.jpg"
     },
+
     {
         id: 3,
-        marca: "Brasas del Sur",
-        nombre: "Barril Titanio Heavy Duty",
-        tamano: "Grande",
-        precio: 980000,
-        capacidad: "Comercial / Eventos",
-        acabado: "Níquel Industrial y Carbón",
-        descripcion: "Diseñado para eventos y restaurantes. Máxima capacidad de carga de carbón y carne de alta gama.",
-        imagen: "assets/images/placeholder.jpg"
+        marca: "Brasa Firme",
+        nombre: "Barril Brasa Firme - 12 Libras",
+        tamano: "Pequeño",
+        precio: 380000,
+        capacidad: "1 - 10 personas",
+        acabado: "Níquel Reforzado",
+        descripcion: "El favorito para reuniones familiares. Permite asar, ahumar y colgar cortes largos simultáneamente.",
+        imagen: "assets/images/brasafirme12l.jpg"
     },
-    {
+        {
         id: 4,
-        marca: "Ahumadores Pro",
-        nombre: "Barril Asador Ejecutivo",
-        tamano: "Mediano",
-        precio: 590000,
-        capacidad: "8 - 15 personas",
-        acabado: "Níquel Brillante",
-        descripcion: "Elegante diseño exterior con detalles metálicos de níquel pulido y termómetro integrado de alta precisión.",
-        imagen: "assets/images/placeholder.jpg"
+        marca: "Steak and Beer",
+        nombre: "Steak and Beer - 12 Libras",
+        tamano: "Pequeño",
+        precio: 380000,
+        capacidad: "1 - 10 personas",
+        acabado: "Níquel Reforzado",
+        descripcion: "El favorito para reuniones familiares. Permite asar, ahumar y colgar cortes largos simultáneamente.",
+        imagen: "assets/images/steakandbeer12l.jpg"
     },
     {
         id: 5,
-        marca: "Fuego & Acero",
-        nombre: "Mini Barril Nomad",
-        tamano: "Pequeño",
-        precio: 290000,
-        capacidad: "1 - 5 personas",
-        acabado: "Níquel Portátil",
-        descripcion: "Llévalo a camping, días de campo o salidas de pesca. Ligero, resistente y muy eficiente.",
-        imagen: "assets/images/placeholder.jpg"
+        marca: "Ingrill",
+        nombre: "Barril Ingril  - 15 libras",
+        tamano: "Mediano",
+        precio: 500000,
+        capacidad: "1 - 18",
+        acabado: "Níquel Industrial y Carbón",
+        descripcion: "Diseñado para eventos y restaurantes. Máxima capacidad de carga de carbón y carne de alta gama.",
+        imagen: "assets/images/ingrill15l.jpg"
     },
     {
         id: 6,
-        marca: "Brasas del Sur",
-        nombre: "Barril Asumador Pro Plus",
+        marca: "Brasa Firme",
+        nombre: "Barril Asador mediano - 20 libras",
+        tamano: "Mediano",
+        precio: 550000,
+        capacidad: "15 - 25 personas",
+        acabado: "Níquel Brillante",
+        descripcion: "Elegante diseño exterior con detalles metálicos de níquel pulido y termómetro integrado de alta precisión.",
+        imagen: "assets/images/brasafirme20l.jpg"
+    },
+        {
+        id: 7,
+        marca: "Ingrill",
+        nombre: "Ingril Mundialista 25 libras",
+        tamano: "Mediano",
+        precio: 600000,
+        capacidad: "25 - 30 personas",
+        acabado: "Níquel Portátil",
+        descripcion: "Llévalo a camping, días de campo o salidas de pesca. Ligero, resistente y muy eficiente.",
+        imagen: "assets/images/ingrillmundialista25l.jpg"
+    },
+    {
+        id: 8,
+        marca: "Ingrill",
+        nombre: "Ingrill mediano 25 libras",
+        tamano: "Mediano",
+        precio: 650000,
+        capacidad: "25 - 30 personas",
+        acabado: "Níquel Portátil",
+        descripcion: "Llévalo a camping, días de campo o salidas de pesca. Ligero, resistente y muy eficiente.",
+        imagen: "assets/images/ingrill25l.jpg"
+    },
+    {
+        id: 9,
+        marca: "Humo Barriles",
+        nombre: "Humo Barril - 30 libras",
         tamano: "Grande",
-        precio: 1150000,
-        capacidad: "Eventos masivos",
+        precio: 720000,
+        capacidad: "35 - 40",
         acabado: "Níquel Mate Reforzado",
         descripcion: "Estructura de alta resistencia con accesorios completos incluidos: ganchos, parrilla superior y garfios.",
-        imagen: "assets/images/placeholder.jpg"
+        imagen: "assets/images/humobarriles30l.jpg"
+    },
+    {
+        id: 10,
+        marca: "Ingrill",
+        nombre: "Ingrill 45 libras",
+        tamano: "Grande",
+        precio: 850000,
+        capacidad: "50 - 60",
+        acabado: "Níquel Mate Reforzado",
+        descripcion: "Estructura de alta resistencia con accesorios completos incluidos: ganchos, parrilla superior y garfios.",
+        imagen: "assets/images/ingrill45l.jpg"
+    },
+    {
+        id: 11,
+        marca: "Humo Barriles",
+        nombre: "Humo Barriles 60 libras",
+        tamano: "Jumbo",
+        precio: 1000000,
+        capacidad: "70 - 80",
+        acabado: "Níquel Mate Reforzado",
+        descripcion: "Estructura de alta resistencia con accesorios completos incluidos: ganchos, parrilla superior y garfios.",
+        imagen: "assets/images/ingrill60l.jpg"
+    },
+    {
+        id: 12,
+        marca: "Carnivore",
+        nombre: "Barril Carnivore 100 libras",
+        tamano: "Mega",
+        precio: 1300000,
+        capacidad: "90 - 100",
+        acabado: "Níquel Mate Reforzado",
+        descripcion: "Ideal para emprendenores.",
+        imagen: "assets/images/carnivore100l.jpg"
     }
 ];
 
