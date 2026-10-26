@@ -125,6 +125,34 @@ body {
     margin-bottom: 25px;
 }
 
+/* Contenedor de Imagen Intermedia */
+.mid-banner-section {
+    padding: 40px 20px;
+    background-color: var(--bg-dark);
+}
+
+.mid-banner-container {
+    width: 100%;
+    max-height: 300px;
+    border-radius: 16px;
+    overflow: hidden;
+    border: 1px solid var(--charcoal);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+
+.mid-banner-container img {
+    width: 100%;
+    height: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    display: block;
+    transition: var(--transition);
+}
+
+.mid-banner-container img:hover {
+    transform: scale(1.02);
+}
+
 /* Botones */
 .btn-primary {
     display: inline-block;
@@ -392,10 +420,15 @@ body {
     transform: translateY(-3px);
 }
 
-/* Contacto */
 .contact-section {
-    padding: 60px 20px;
+  display: flex;
+  flex-direction: column; /* Alinea los elementos uno abajo del otro */
+  justify-content: center; /* Centra el contenido verticalmente */
+  align-items: center;    /* Centra el contenido horizontalmente */
+  text-align: center;     /* Centra el texto de los elementos internos */
+  min-height: 100vh;      /* Opcional: le da al contenedor la altura completa de la pantalla */
 }
+
 
 .contact-grid {
     display: grid;
@@ -423,6 +456,8 @@ body {
     display: flex;
     flex-direction: column;
     gap: 15px;
+    align-items: center;    /* Centra el contenido horizontalmente */
+
 }
 
 .contact-list li {
@@ -525,4 +560,202 @@ footer {
     .filters-container {
         flex-direction: column;
     }
+}
+ 
+/* Carrusel de fotos en la tarjeta */
+.product-images-scroll {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 0;
+    height: 220px;
+    background-color: #252525;
+    align-items: center;
+    scroll-behavior: smooth;
+}
+
+.product-images-scroll::-webkit-scrollbar {
+    display: none; /* Oculta la barra de scroll en la tarjeta para mayor limpieza visual */
+}
+
+.product-images-scroll img {
+    flex: 0 0 100%;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    scroll-snap-align: center;
+    cursor: pointer;
+    transition: var(--transition);
+}
+
+/* Puntos indicadores modernos */
+.product-dots {
+    position: absolute;
+    bottom: 12px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 6px;
+    pointer-events: none;
+    z-index: 10;
+}
+
+.product-dots .dot {
+    width: 6px;
+    height: 6px;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 50%;
+    transition: var(--transition);
+}
+
+.product-dots .dot.active {
+    background-color: #fff;
+    width: 18px;
+    border-radius: 4px;
+}
+
+/* Lightbox / Visor ampliado con scroll horizontal fluido de derecha a izquierda */
+.lightbox-modal {
+    display: none;
+    position: fixed;
+    z-index: 2000;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.95);
+    align-items: center;
+    justify-content: center;
+    padding: 40px 20px;
+}
+
+.lightbox-modal.active {
+    display: flex;
+}
+
+.lightbox-container {
+    display: flex;
+    flex-direction: row; /* Forzar orden horizontal de derecha a izquierda */
+    overflow-x: auto;
+    overflow-y: hidden;
+    scroll-snap-type: x mandatory;
+    gap: 20px;
+    max-width: 900px;
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+    padding: 20px;
+    scroll-behavior: smooth;
+    white-space: nowrap; /* Evita que los elementos bajen de línea */
+}
+
+.lightbox-container::-webkit-scrollbar {
+    height: 8px;
+}
+
+.lightbox-container::-webkit-scrollbar-thumb {
+    background-color: var(--fire-orange);
+    border-radius: 10px;
+}
+
+.lightbox-content {
+    flex: 0 0 100%; /* Cada imagen ocupa el 100% del ancho del contenedor del visor */
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    scroll-snap-align: center;
+    border-radius: 8px;
+    display: inline-block;
+}
+
+.lightbox-close {
+    position: absolute;
+    top: 20px;
+    right: 30px;
+    color: #fff;
+    font-size: 2.5rem;
+    cursor: pointer;
+    background: none;
+    border: none;
+    z-index: 2010;
+}
+
+.container-icono {
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center;     /* Centra verticalmente */
+    height: 100px;           /* Opcional: define una altura si quieres centrado vertical */
+}
+ 
+/* Estilos para el botón y sección desplegable de características */
+.btn-features-container {
+    text-align: center;
+    margin: 15px 0 10px 0;
+}
+
+.btn-features {
+    background: linear-gradient(135deg, var(--fire-orange), #ff7b54);
+    color: #fff;
+    border: none;
+    padding: 10px 18px;
+    font-size: 0.9rem;
+    font-weight: 600;
+    border-radius: 25px;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(217, 83, 79, 0.3);
+    transition: var(--transition);
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.btn-features:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 6px 15px rgba(217, 83, 79, 0.5);
+}
+
+.features-dropdown {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.4s ease-out, padding 0.3s ease;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 8px;
+    padding: 0 15px;
+    margin-bottom: 15px;
+    font-size: 0.85rem;
+    color: var(--text-muted);
+    text-align: left;
+}
+
+.features-dropdown.active {
+    max-height: 500px; /* Altura máxima estimada para que se extienda suavemente */
+    padding: 15px;
+    transition: max-height 0.5s ease-in, padding 0.3s ease;
+}
+
+.features-dropdown ul {
+    margin: 8px 0 12px 15px;
+    padding: 0;
+}
+
+.features-dropdown li {
+    margin-bottom: 4px;
+}
+
+.btn-hide-features {
+    background: transparent;
+    border: 1px solid var(--fire-orange);
+    color: var(--fire-orange);
+    padding: 4px 10px;
+    font-size: 0.75rem;
+    border-radius: 15px;
+    cursor: pointer;
+    display: block;
+    margin: 10px auto 0 auto;
+    transition: var(--transition);
+}
+
+.btn-hide-features:hover {
+    background-color: var(--fire-orange);
+    color: #fff;
 } 
