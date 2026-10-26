@@ -263,7 +263,7 @@ function renderProducts(productsToRender) {
 
     productsToRender.forEach(product => {
         const mensajeWhatsApp = encodeURIComponent(`Hola, me interesa el barril "${product.nombre}" (${product.marca}) con precio de ${formatPrice(product.precio)}. ¿Está disponible?`);
-        const whatsappUrl = `https://wa.me/573001234567?text=${mensajeWhatsApp}`;
+        const whatsappUrl = `https://wa.me/573104839028?text=${mensajeWhatsApp}`;
 
         // Generar imágenes y pasar el arreglo completo y el índice al hacer clic
         const imagenesHtml = product.imagenes.map((img, index) => `
