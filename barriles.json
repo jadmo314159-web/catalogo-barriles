@@ -1,0 +1,202 @@
+[
+    {
+        "id": 1,
+        "marca": "Flami",
+        "nombre": "Flami eco - 7 libras",
+        "tamano": "mini",
+        "precio": 280000,
+        "capacidad": "1 - 8 personas",
+        "acabado": "Acero Inoxidable / Níquel",
+        "descripcion": "Ideal para balcones, terrazas y pequeños grupos. Excelente retención de calor y fácil limpieza.",
+        "caracteristicasHtml": "<strong>Características del producto</strong><ul><li>Capacidad: 7 lb (ideal para 6 a 8 personas).</li><li>Altura: 53,5 cm.</li><li>Diámetro / Ancho: 30 cm.</li><li>Material y agarre: Fabricado en acero inoxidable con asas/mangos de madera para facilitar el agarre sin quemarse.</li></ul><strong>Accesorios y componentes incluidos</strong><ul><li>1 Garfio</li><li>6 Ganchos</li><li>1 Carbonera</li><li>1 Parrilla para asar</li><li>1 Cenicero</li><li>Termómetro</li><li>Esclusa en la tapa</li><li>Enganche en la base</li></ul>",
+        "imagenes": [
+            "assets/images/flami7l.jpg",
+            "assets/images/flami7la.jpg",
+            "assets/images/flami7lb.jpg",
+            "assets/images/flami7lc.jpg"
+        ]
+    },
+    {
+        "id": 2,
+        "marca": "Ingrill",
+        "nombre": "Barril Ingrill - 7 libras",
+        "tamano": "mini",
+        "precio": 320000,
+        "capacidad": "1 - 8 personas",
+        "acabado": "Acero Inoxidable / Níquel",
+        "descripcion": "Ideal para balcones, terrazas y pequeños grupos. Excelente retención de calor y fácil limpieza.",
+        "caracteristicasHtml": "<strong>Características del producto</strong><ul><li>Capacidad: 7 lb (ideal para 6 a 8 personas).</li><li>Altura: 53,5 cm.</li><li>Diámetro / Ancho: 30 cm.</li><li>Material y agarre: Fabricado en acero inoxidable con asas/mangos de madera para facilitar el agarre sin quemarse.</li></ul><strong>Accesorios y componentes incluidos</strong><ul><li>1 Garfio</li><li>6 Ganchos</li><li>1 Carbonera</li><li>1 Parrilla para asar</li><li>Termómetro</li><li>Esclusa en la tapa</li><li>Enganche en la base</li></ul>",
+        "imagenes": [
+            "assets/images/ingrill7l.jpg",
+            "assets/images/ingrill7la.jpg",
+            "assets/images/ingrill7lb.jpg",
+            "assets/images/ingrill7lc.jpg"
+        ]
+    },
+    {
+        "id": 3,
+        "marca": "Brasa Firme",
+        "nombre": "Barril Brasa Firme - 12 Libras",
+        "tamano": "Pequeño",
+        "precio": 380000,
+        "capacidad": "1 - 10 personas",
+        "acabado": "Níquel Reforzado",
+        "descripcion": "El favorito para reuniones familiares. Permite asar, ahumar y colgar cortes largos simultáneamente.",
+        "caracteristicasHtml": "<strong>Características del producto</strong><ul><li>Capacidad: 12 lb (ideal para 10 personas).</li><li>Altura: 56 cm.</li><li>Diámetro / Ancho: 30 cm.</li><li>Material y agarre: Fabricado en acero inoxidable con asas/mangos de madera para facilitar el agarre sin quemarse.</li></ul><strong>Accesorios y componentes incluidos</strong><ul><li>1 Garfio</li><li>6 Ganchos</li><li>1 Carbonera</li><li>1 Parrilla para asar</li><li>1 Cenicero</li><li>Termómetro</li><li>Esclusa en la tapa</li></ul>",
+        "imagenes": [
+            "assets/images/brasafirme12l.jpg",
+            "assets/images/brasafirme12la.jpg",
+            "assets/images/brasafirme12lb.jpg"
+        ]
+    },
+    {
+        "id": 4,
+        "marca": "Steak and Beer",
+        "nombre": "Steak and Beer - 12 Libras",
+        "tamano": "Pequeño",
+        "precio": 380000,
+        "capacidad": "1 - 10 personas",
+        "acabado": "Níquel Reforzado",
+        "descripcion": "El favorito para reuniones familiares. Permite asar, ahumar y colgar cortes largos simultáneamente.",
+        "caracteristicasHtml": "<strong>Características del producto</strong><ul><li>Capacidad: 12 lb (ideal para 10 personas).</li><li>Altura: 56 cm.</li><li>Diámetro / Ancho: 30 cm.</li><li>Material y agarre: Fabricado en acero inoxidable con asas/mangos de madera para facilitar el agarre sin quemarse.</li></ul><strong>Accesorios y componentes incluidos</strong><ul><li>1 Garfio</li><li>12 Ganchos</li><li>1 Carbonera</li><li>1 Parrilla para asar</li><li>Termómetro</li><li>Esclusa en la tapa</li></ul>",
+        "imagenes": [
+            "assets/images/steakandbeer12l.jpg",
+            "assets/images/steakandbeer12lb.jpg",
+            "assets/images/steakandbeer12lc.jpg",
+            "assets/images/steakandbeer12ld.jpg"
+        ]
+    },
+    {
+        "id": 5,
+        "marca": "Ingrill",
+        "nombre": "Barril Ingrill - 15 libras",
+        "tamano": "Mediano",
+        "precio": 500000,
+        "capacidad": "1 - 18",
+        "acabado": "Níquel Industrial y Carbón",
+        "descripcion": "Diseñado para eventos y restaurantes. Máxima capacidad de carga de carbón y carne de alta gama.",
+        "caracteristicasHtml": "<strong>Características del producto</strong><ul><li>Capacidad: 15 lb (ideal para 18 personas).</li><li>Altura: 67 cm.</li><li>Diámetro / Ancho: 33 cm.</li><li>Material y agarre: Fabricado en acero inoxidable con asas/mangos de madera para facilitar el agarre sin quemarse.</li></ul><strong>Accesorios y componentes incluidos</strong><ul><li>1 Garfio</li><li>8 Ganchos</li><li>1 Carbonera</li><li>1 Parrilla para asar</li><li>1 Cenicero</li><li>Termómetro</li><li>Esclusa en la tapa</li><li>Enganche en la base</li></ul>",
+        "imagenes": [
+            "assets/images/ingrill15l.jpg",
+            "assets/images/ingrill15la.jpg",
+            "assets/images/ingrill15lb.jpg",
+            "assets/images/ingrill15lc.jpg"
+        ]
+    },
+    {
+        "id": 6,
+        "marca": "Brasa Firme",
+        "nombre": "Brasa Firme - 20 libras",
+        "tamano": "Mediano",
+        "precio": 550000,
+        "capacidad": "15 - 25 personas",
+        "acabado": "Níquel Brillante",
+        "descripcion": "Elegante diseño exterior con detalles metálicos de níquel pulido y termómetro integrado de alta precisión.",
+        "caracteristicasHtml": "<strong>Características del producto</strong><ul><li>Capacidad: 15 lb (ideal para 18 personas).</li><li>Altura: 65 cm.</li><li>Diámetro / Ancho: 41 cm.</li><li>Material y agarre: Fabricado en acero inoxidable con asas/mangos de madera para facilitar el agarre sin quemarse.</li></ul><strong>Accesorios y componentes incluidos</strong><ul><li>2 Garfios</li><li>10 Ganchos</li><li>1 Carbonera</li><li>1 Parrilla para asar</li><li>Termómetro</li><li>Esclusa en la tapa</li></ul>",
+        "imagenes": [
+            "assets/images/brasafirme20l.jpg",
+            "assets/images/brasafirme20la.jpg",
+            "assets/images/brasafirme20lb.jpg"
+        ]
+    },
+    {
+        "id": 7,
+        "marca": "Ingrill",
+        "nombre": "Ingril Mundialista 25 libras",
+        "tamano": "Mediano",
+        "precio": 600000,
+        "capacidad": "25 - 30 personas",
+        "acabado": "Níquel Portátil",
+        "descripcion": "Llévalo a camping, días de campo o salidas de pesca. Ligero, resistente y muy eficiente.",
+        "caracteristicasHtml": "<strong>Características del producto</strong><ul><li>Capacidad: 25 lb (ideal para 30 personas).</li><li>Altura: 74 cm.</li><li>Diámetro / Ancho: 38 cm.</li><li>Material y agarre: Fabricado en acero inoxidable con asas/mangos de madera para facilitar el agarre sin quemarse.</li></ul><strong>Accesorios y componentes incluidos</strong><ul><li>1 Garfio</li><li>12 Ganchos</li><li>1 Carbonera</li><li>1 Parrilla para asar</li><li>1 Halador de parrilla</li><li>1 Cenicero</li><li>Termómetro</li><li>Esclusa en la tapa</li></ul>",
+        "imagenes": [
+            "assets/images/ingrillmundialista25l.jpg",
+            "assets/images/ingrillmundialista25la.jpg",
+            "assets/images/ingrillmundialista25lb.jpg"
+        ]
+    },
+    {
+        "id": 8,
+        "marca": "Ingrill",
+        "nombre": "Ingrill mediano 25 libras",
+        "tamano": "Mediano",
+        "precio": 650000,
+        "capacidad": "25 - 30 personas",
+        "acabado": "Níquel Portátil",
+        "descripcion": "Llévalo a camping, días de campo o salidas de pesca. Ligero, resistente y muy eficiente.",
+        "caracteristicasHtml": "<strong>Características del producto</strong><ul><li>Capacidad: 25 lb (ideal para 30 personas).</li><li>Altura: 74 cm.</li><li>Diámetro / Ancho: 38 cm.</li><li>Material y agarre: Fabricado en acero inoxidable con asas/mangos de madera para facilitar el agarre sin quemarse.</li></ul><strong>Accesorios y componentes incluidos</strong><ul><li>1 Garfio</li><li>12 Ganchos</li><li>1 Carbonera</li><li>1 Parrilla para asar</li><li>1 Halador de parrilla</li><li>1 Cenicero</li><li>Termómetro</li><li>Esclusa en la tapa</li><li>Enganche en la base</li></ul>",
+        "imagenes": [
+            "assets/images/ingrill25l.jpg",
+            "assets/images/ingrill25la.jpg",
+            "assets/images/ingrill25lb.jpg",
+            "assets/images/ingrill25lc.jpg"
+        ]
+    },
+    {
+        "id": 9,
+        "marca": "Humo Barriles",
+        "nombre": "Humo Barril - 30 libras",
+        "tamano": "Grande",
+        "precio": 720000,
+        "capacidad": "35 - 40",
+        "acabado": "Níquel Mate Reforzado",
+        "descripcion": "Estructura de alta resistencia con accesorios completos incluidos: ganchos, parrilla superior y garfios.",
+        "caracteristicasHtml": "<strong>Características del producto</strong><ul><li>Capacidad: 30 lb.</li><li>Altura: 74,7 cm.</li><li>Diámetro / Ancho: 41 cm.</li><li>Material y agarre: Fabricado en acero calibre 430, acero inoxidable y madera teca con asas/mangos para facilitar el agarre sin quemarse.</li></ul><strong>Accesorios y componentes incluidos</strong><ul><li>2 Garfios</li><li>10 Ganchos</li><li>1 Tula para ganchos</li><li>1 Carbonera</li><li>1 Parrilla para asar</li><li>Termómetro</li><li>Esclusa en la tapa</li><li>Guía para asados y recetas</li></ul>",
+        "imagenes": [
+            "assets/images/humobarriles30l.jpg",
+            "assets/images/humobarriles30la.jpg",
+            "assets/images/humobarriles30lb.jpg"
+        ]
+    },
+    {
+        "id": 10,
+        "marca": "Ingrill",
+        "nombre": "Ingrill 45 libras",
+        "tamano": "Grande",
+        "precio": 850000,
+        "capacidad": "50 - 60",
+        "acabado": "Níquel Mate Reforzado",
+        "descripcion": "Estructura de alta resistencia con accesorios completos incluidos: ganchos, parrilla superior y garfios.",
+        "caracteristicasHtml": "<strong>Características del producto</strong><ul><li>Capacidad: 45 lb.</li><li>Altura: 89 cm.</li><li>Diámetro / Ancho: 48 cm.</li><li>Material y agarre: Fabricado en acero inoxidable con asas/mangos de madera para facilitar el agarre sin quemarse.</li></ul><strong>Accesorios y componentes incluidos</strong><ul><li>1 Garfio</li><li>12 Ganchos</li><li>1 Carbonera</li><li>1 Parrilla para asar</li><li>1 Halador de parrilla</li><li>1 Cenicero</li><li>Termómetro</li><li>Esclusa en la tapa</li><li>Enganche en la base</li></ul>",
+        "imagenes": [
+            "assets/images/ingrill45l.jpg",
+            "assets/images/ingrill45la.jpg",
+            "assets/images/ingrill45lb.jpg",
+            "assets/images/ingrill45lc.jpg"
+        ]
+    },
+    {
+        "id": 11,
+        "marca": "Humo Barriles",
+        "nombre": "Humo Barriles 60 libras",
+        "tamano": "Jumbo",
+        "precio": 1000000,
+        "capacidad": "70 - 80",
+        "acabado": "Níquel Mate Reforzado",
+        "descripcion": "Estructura de alta resistencia con accesorios completos incluidos: ganchos, parrilla superior y garfios.",
+        "caracteristicasHtml": "<strong>Características del producto</strong><ul><li>Capacidad: 60 lb.</li><li>Altura: 90 cm.</li><li>Diámetro / Ancho: 57 cm.</li><li>Material y agarre: Fabricado en acero calibre 430, acero inoxidable y manijas en madera teca para facilitar el agarre sin quemarse.</li></ul><strong>Accesorios y componentes incluidos</strong><ul><li>2 Garfios</li><li>10 Ganchos</li><li>1 Tula para ganchos</li><li>1 Carbonera</li><li>1 Parrilla para asar</li><li>Termómetro</li><li>Esclusa en la tapa</li><li>Guía para asados y recetas</li></ul>",
+        "imagenes": [
+            "assets/images/humobarriles60l.jpg",
+            "assets/images/humobarriles60la.jpg",
+            "assets/images/humobarriles60lb.jpg",
+            "assets/images/humobarriles60lc.jpg"
+        ]
+    },
+    {
+        "id": 12,
+        "marca": "Carnivore",
+        "nombre": "Barril Carnivore 100 libras",
+        "tamano": "Mega",
+        "precio": 1300000,
+        "capacidad": "90 - 100",
+        "acabado": "Níquel Mate Reforzado",
+        "descripcion": "Ideal para emprendedores.",
+        "caracteristicasHtml": "<strong>Características del producto</strong><ul><li>Capacidad: 100 lb (ideal para 90 a 100 personas).</li><li>Altura y dimensiones especiales para alta producción.</li><li>Material y agarre: Fabricado en acero inoxidable reforzado con asas para facilitar el agarre.</li></ul><strong>Accesorios y componentes incluidos</strong><ul><li>Garfios múltiples</li><li>Ganchos reforzados</li><li>Carbonera de alta capacidad</li><li>Parrilla para asar</li><li>Termómetro de precisión</li><li>Esclusa en la tapa</li></ul>",
+        "imagenes": [
+            "assets/images/carnivore100l.jpg"
+        ]
+    }
+
+]
+
+

@@ -59,7 +59,7 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
-    font-size: 1.8rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: var(--fire-orange);
 }
@@ -127,26 +127,28 @@ body {
 
 /* Contenedor de Imagen Intermedia */
 .mid-banner-section {
-    padding: 40px 20px;
+    padding: 18px 3px;
     background-color: var(--bg-dark);
 }
 
 .mid-banner-container {
     width: 100%;
-    max-height: 300px;
-    border-radius: 16px;
+    max-height: 200px;
+    border-radius: 5px;
     overflow: hidden;
-    border: 1px solid var(--charcoal);
+    border: 2px solid var(--charcoal);
     box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+    
 }
 
 .mid-banner-container img {
     width: 100%;
     height: 100%;
-    max-height: 400px;
+    max-height: 300px;
     object-fit: cover;
     display: block;
     transition: var(--transition);
+    padding: 3px;
 }
 
 .mid-banner-container img:hover {
@@ -515,11 +517,11 @@ footer {
     text-align: center;
     border-top: 1px solid var(--charcoal);
     color: var(--text-muted);
-    font-size: 0.9rem;
+    font-size: 0.7rem;
 }
 
 .designer {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     color: var(--nickel);
     margin-top: 5px;
 }
